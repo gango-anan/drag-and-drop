@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://sortable-and-dragable/./src/index.js?");
+eval("const draggables = document.querySelectorAll('.draggable');\r\nconst containers = document.querySelectorAll('.container');\r\n\r\ndraggables.forEach(draggable => {\r\n  draggable.addEventListener('dragstart', () => {\r\n    draggable.classList.add('dragging');\r\n  })\r\n\r\n  draggable.addEventListener('dragend', () => {\r\n    draggable.classList.remove('dragging');\r\n  })\r\n})\r\n\r\ncontainers.forEach(container => {\r\n  container.addEventListener('dragover', (e) => {\r\n    e.preventDefault();\r\n    const draggable = document.querySelector('.dragging');\r\n    container.appendChild(draggable);\r\n  })\r\n})\n\n//# sourceURL=webpack://sortable-and-dragable/./src/index.js?");
 
 /***/ })
 

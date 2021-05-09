@@ -14,4 +14,8 @@ body {
   border: 1px solid black;
   cursor: move;
 }
+
+.draggable.dragging {
+  opacity: 0.7;
+}
 /*# sourceMappingURL=main.css.map */
