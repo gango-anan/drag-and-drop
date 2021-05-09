@@ -1,0 +1,25 @@
+{
+  "name": "sortable-and-dragable",
+  "version": "1.0.0",
+  "description": "Implementing drag and drop capability in web applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --mode=production",
+    "dev": "webpack --progress --mode=development",
+    "watch": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gango-anan/drag-and-drop.git"
+  },
+  "author": "Galiwango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gango-anan/drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/gango-anan/drag-and-drop#readme",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}
